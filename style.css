@@ -1,0 +1,34 @@
+button{
+    float:right
+}
+
+h1{
+    color: blue;
+    font-family: fantasy;
+}
+
+.model-title{
+    background: white;
+}
+
+body{
+    background-color: lightblue;
+}
+
+h2{
+    color: blue;
+    font-family: fantasy;
+}
+
+canvas{
+    border-radius: 20px;
+    border: 5px solid white;
+    animation-name: animation;
+    animation-duration: 6s;
+    margin-top: 140px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation{
+    from{box-shadow: 30px 30px 38px darkblue} to{box-shadow: 30px 30px 38px blueviolet}
+}    
